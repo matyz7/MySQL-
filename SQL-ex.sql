@@ -9,7 +9,7 @@ values (631, 2, 'TESTOWY', 'TEST', 'testowy@gmail.com', 10, 1);
 insert into customer (customer_id, store_id, first_name, last_name, email, address_id, active)
 values (632, 2, 'DŻONY', 'TESTOWY', 'dzonytestowy@gmail.com', 10, 1);
 delete from customer where first_name='DŻONY';
-update address set address2= 'polska';
+update address set address 2= 'polska';
 select customer.first_name, customer.last_name, rental.rental_date, rental.return_date
 from customer
 join rental
